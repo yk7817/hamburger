@@ -1269,6 +1269,22 @@ img {
   margin: 10px 0 0 0;
 }
 
+@media (max-width: 1024px) {
+  .p-error {
+    height: 100vh;
+  }
+}
+.p-error__content {
+  text-align: center;
+  padding: 200px 20px 0;
+}
+.p-error__description {
+  margin: 20px 0 0 0;
+}
+.p-error__return {
+  margin: 60px 0 0 0;
+}
+
 .u-mt70 {
   margin-top: 70px;
 }
